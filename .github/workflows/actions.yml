@@ -37,8 +37,8 @@ jobs:
 
       - name: commit files
         run: |
-          git config --local user.email "zwelakhespha@gmail.com"
-          git config --local user.name "Siphamandla Zolakhe"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           git add .
           git diff-index --quiet HEAD || (git commit -a -m "updated script" --allow-empty)
 
