@@ -1,9 +1,1 @@
-smtplib
-random
-time
-os
-logging
-MIMEMultipart
-MIMEText
-MIMEApplication
 load_dotenv
